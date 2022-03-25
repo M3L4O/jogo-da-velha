@@ -71,6 +71,6 @@ function limpar(){
             document.getElementById(i.toString() + j.toString()).innerText ='';
         }
     }
-    blink();
+    vez = false;
     
 }
