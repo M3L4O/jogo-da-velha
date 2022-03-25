@@ -18,9 +18,10 @@ body{
 .jogadores h1{
     margin-bottom: 5px;
 }
+
 .row{
-    display: block;
-    margin-bottom: 2px;
+    display: flex;
+    margin-bottom: 5px;
 }
 
 .row button{
@@ -29,6 +30,7 @@ body{
     font-size: larger;
     border: 2px solid black;
     border-radius: 10px;
+    margin-right: 5px;
 
 }
 
