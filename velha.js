@@ -47,6 +47,7 @@ function selecionar(obj){
         if( opcao == 'O') return;
         else document.getElementById(obj.id).innerText = 'X'
         if(ganhou(obj.id, 'X')){
+            document.getElementById(obj.id).innerText = 'X'
             alert('O jogador 2 ganhou.');
             limpar();
         }
@@ -56,6 +57,7 @@ function selecionar(obj){
         if( opcao == 'O') return;
         else document.getElementById(obj.id).innerText = 'O';
         if(ganhou(obj.id, 'O')){
+      document.getElementById(obj.id).innerText = 'O'
             alert('O jogador 1 ganhou.');
             limpar();
         }
