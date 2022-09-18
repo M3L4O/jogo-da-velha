@@ -44,7 +44,7 @@ function ganhou(id, jogador){
 function selecionar(obj){
     if(vez){
         let opcao = document.getElementById(obj.id).innerText;
-        if( opcao == 'X' or opcao == 'O') return;
+        if( opcao == 'X') return;
         else document.getElementById(obj.id).innerText = 'X';
         if(ganhou(obj.id, 'X')){
             alert('O jogador 2 ganhou.');
@@ -53,7 +53,7 @@ function selecionar(obj){
         blink();
     }else{
         let opcao = document.getElementById(obj.id).innerText;
-        if( opcao == 'O' or opcao == 'X') return;
+        if( opcao == 'O') return;
         else document.getElementById(obj.id).innerText = 'O';
         if(ganhou(obj.id, 'O')){
             alert('O jogador 1 ganhou.')
